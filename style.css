@@ -1,3 +1,10 @@
+* {
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: rgb(253, 251, 251);
 }
@@ -10,4 +17,8 @@ header {
 
 #minha_foto {
     width: 100px;
+}
+
+#nav-links-li {
+    list-style: none;
 }
