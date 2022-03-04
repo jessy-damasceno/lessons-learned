@@ -1,18 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap');
+
 * {
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     margin: 0px;
     padding: 0px;
 }
 
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
     position: fixed;
     top: 0;
-    background-color: red;
+}
+
+.nav-header {
+    display: block;
+    font-family: Montserrat;
 }
 
 #minha_foto {
@@ -21,4 +28,8 @@ header {
 
 #nav-links-li {
     list-style: none;
+}
+
+#table-title {
+    text-align: center;
 }
