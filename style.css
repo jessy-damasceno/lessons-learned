@@ -1,33 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap');
 
-* {
-    top: 0px;
-    left: 0px;
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
     background-color: rgb(253, 251, 251);
-    font-family: 'Montserrat', sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 header {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    background-color: black;
     position: fixed;
-    top: 0;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    width: 100%;
 }
 
 .nav-header {
-    display: block;
-    font-family: Montserrat;
+    max-width: 100%;
+    border: 1px solid blue;
+    display: flex;
+}
+
+.main-title {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    align-self: auto;
+}
+
+h1#titulo {
+    font-size: 12px;
+    align-self: center;
+    font-weight: 700;
+    padding: 16px 160px 16px 16px;
+    margin: 16px 16px 16px 32px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.836);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    justify-content: flex-start;
+}
+
+.nav-links {
+    font-size: 14px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: lowercase;
+    margin: 16px 32px 16px 16px;    
+}
+
+.navbar-link {
+    margin: 0px 16px;
+    padding: 8px 48px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 #minha_foto {
     width: 100px;
-}
-
-#nav-links-li {
-    list-style: none;
+    margin-top: 100px;
 }
 
 #table-title {
