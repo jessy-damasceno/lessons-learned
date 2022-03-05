@@ -146,3 +146,51 @@ li {
     text-align: justify;
     padding: 12px 36px;
 }
+
+table {
+    margin: auto;
+    letter-spacing: 6px;
+    line-height: 2;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+td, th {
+    border: 1px solid rgb(131, 131, 131);
+    padding: 6px 30px;
+}
+
+th {
+    background-color: rgba(0, 0, 0);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(224, 222, 222);
+}
+
+td:hover {
+    background-color: rgb(196, 196, 196);
+    color: rgb(235, 235, 235);
+}
+
+footer {
+    position: fixed;
+    margin: auto;
+    padding: 12px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+    line-height: 0px;
+}
+
+footer > a {
+    padding: 24px;
+    font-size: 14px;
+    color: white;
+}
+
+footer > a:hover {
+    font-weight: 600;
+}
