@@ -96,10 +96,6 @@ figcaption {
     text-transform: uppercase;
 }
 
-#table-title {
-    text-align: center;
-}
-
 .lessons {
     display: block;
     width: 80%;
@@ -153,6 +149,7 @@ table {
     line-height: 2;
     border-collapse: collapse;
     background-color: white;
+    margin-bottom: 60px;
 }
 
 td, th {
